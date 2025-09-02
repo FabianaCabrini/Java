@@ -26,5 +26,13 @@ public class Operadores {
                     //Neste caso, depois de somar o valor ele vai entregar o numero que ai sim estará incrementado
     System.out.println(valor);
     System.out.println(numero3);
+
+    int x = 4;
+    x += 2; // x = x + 2
+        System.out.println(x);
+
+    int y = 2;
+    y *= 2; //y = y * 2
+    System.out.println(y);
     }
 }
