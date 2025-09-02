@@ -20,5 +20,11 @@ public class Operadores {
     int numero2 = 5;
     numero2--;
     System.out.println(numero2);
+
+    int numero3 = 5;
+    int valor = 5 + numero3++; //A posição do ++ muda o valor final, se vier antes de numero3, ele incrementa 1 a 5 e já é somado 6+5
+                    //Neste caso, depois de somar o valor ele vai entregar o numero que ai sim estará incrementado
+    System.out.println(valor);
+    System.out.println(numero3);
     }
 }
