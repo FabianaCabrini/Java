@@ -1,8 +1,6 @@
 package org.example;
 
-import java.sql.SQLOutput;
-
-public class Class_math {
+public class ClassMath {
     public static void main(String[] args) {
 
 
