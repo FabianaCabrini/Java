@@ -45,7 +45,7 @@ public class EstruturasCondicionais {
         }
         */
 
-
+        /*
         int dataNascimento;
         int idade;
         System.out.print("Insira o data de nascimento: ");
@@ -59,5 +59,27 @@ public class EstruturasCondicionais {
         } else {
             System.out.println("Voto obrigatorio");
         }
+        */
+
+        int pernas = teclado.nextInt();
+        String tipo;
+        switch(pernas){
+            case 1:
+                tipo = "Saci";
+                break;
+            case 2:
+                tipo = "Bipedi";
+                break;
+            case 4:
+                tipo = "Aranha";
+                break;
+            case 6,8:
+                tipo = "Aranha";
+                break;
+            default:
+                tipo = "ET";
+        }
+        System.out.println("Tipo: " + tipo);
+
     }
 }
