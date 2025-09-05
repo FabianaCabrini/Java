@@ -31,6 +31,17 @@ public class OperadoresLogicos {
         //o valor de 3 foi feito com um metodo diferente, sendo assim precisa especificar com equals, para que de certo.
         //Caso não expecifique a saída vai ser "Diferente", pois ele considera o metodo firetente
 
+        int x,y,z;
+        x = 4;
+        y = 7;
+        z = 12;
+        boolean resultado;
+        resultado = (x<y && y<z)? true:false;
+        System.out.println(resultado);
+
+        resultado = (x<y || y==z)? true:false;
+        System.out.println(resultado);
+
 
 
     }
