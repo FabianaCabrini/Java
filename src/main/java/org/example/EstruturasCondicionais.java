@@ -5,7 +5,7 @@ public class EstruturasCondicionais {
     public static void main(String[] args) {
 
         Scanner teclado = new Scanner(System.in);
-        System.out.print("Insira a primeira nota: ");
+       /* System.out.print("Insira a primeira nota: ");
         float nota1 = teclado.nextFloat();
         System.out.print("Insira a segunda nota: ");
         float nota2 = teclado.nextFloat();
@@ -13,7 +13,7 @@ public class EstruturasCondicionais {
         System.out.println("Sua média foi "+m);
         if (m>9){
             System.out.println("Parabéns");
-        }
+        }*/
         /*
         int ano;
         int nasc;
@@ -33,7 +33,7 @@ public class EstruturasCondicionais {
         }*/
 
         //Números impares ou pares ??
-
+        /*
         int num;
         System.out.println("Impar x Par");
         System.out.print("Insira um número: ");
@@ -43,6 +43,21 @@ public class EstruturasCondicionais {
         }else{
             System.out.println("O número "+num+" é impar");
         }
+        */
 
+
+        int dataNascimento;
+        int idade;
+        System.out.print("Insira o data de nascimento: ");
+        dataNascimento = teclado.nextInt();
+        idade = 2025 - dataNascimento;
+
+        if(idade < 16){
+            System.out.println("Não vota");
+        } else if ((idade >= 16 && idade < 18) || (idade > 70)) {
+                System.out.println("Voto opcional");
+        } else {
+            System.out.println("Voto obrigatorio");
+        }
     }
 }
