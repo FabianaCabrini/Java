@@ -1,0 +1,13 @@
+package org.example;
+
+public class EstruturaRepeticao {
+    public static void main(String[] args) {
+
+      int cc=0;
+      while(cc<10){
+          cc++;
+          System.out.println("Cambalhota " + (cc+1));
+
+       }
+    }
+}
