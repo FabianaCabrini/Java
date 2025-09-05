@@ -14,7 +14,7 @@ public class EstruturasCondicionais {
         if (m>9){
             System.out.println("Parabéns");
         }
-
+        /*
         int ano;
         int nasc;
         int idade;
@@ -30,6 +30,19 @@ public class EstruturasCondicionais {
             System.out.println("Maior de idade "+idade+" anos");
         }else {
             System.out.println("Menor de idade "+idade+" anos");
+        }*/
+
+        //Números impares ou pares ??
+
+        int num;
+        System.out.println("Impar x Par");
+        System.out.print("Insira um número: ");
+        num = teclado.nextInt();
+        if(num %2 == 0){
+            System.out.println("O número "+num+" é par");
+        }else{
+            System.out.println("O número "+num+" é impar");
         }
+
     }
 }
