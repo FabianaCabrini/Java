@@ -18,5 +18,20 @@ public class OperadoresLogicos {
         b = (n3 > n4) ? n3 + n4: n3 - n4;
         System.out.println(b);
 
+        String nome1 = "Fabiana";
+        String nome2 = "Fabiana";
+        String nome3 = new String("Fabiana");
+        String res ;
+
+        res = (nome1==nome2)? "Igual":"Diferente";
+        System.out.println(res);
+
+        res = (nome1.equals(nome3))? "Igual":"Diferente";
+        System.out.println(res);
+        //o valor de 3 foi feito com um metodo diferente, sendo assim precisa especificar com equals, para que de certo.
+        //Caso não expecifique a saída vai ser "Diferente", pois ele considera o metodo firetente
+
+
+
     }
 }
