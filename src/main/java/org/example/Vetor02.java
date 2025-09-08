@@ -12,11 +12,21 @@ public class Vetor02 {
         int num[] = {3,5,1,8,4};
         //Colocando em ordem, usa-se o Arrays.sort
         Arrays.sort(num);
-        //Fazer uma busca Arrays.binarySearch
-        int pos = Arrays.binarySearch(num, 4);
-        System.out.println(pos);
+
         for (int valor:num){//forma simplificada
             System.out.println(valor + " ");
         }
+        //Fazer uma busca Arrays.binarySearch
+        int pos = Arrays.binarySearch(num, 4);
+        System.out.println("Encontrei o valor na posição " + pos);
+
+        //Preenchimento automático
+
+        int numero[] = new int [5];
+        Arrays.fill(numero, 8); //Todos os blocos vão ser preenchidos com o 8
+        for(int valor:numero){
+            System.out.println(valor + " ");
+        }
+
     }
 }
