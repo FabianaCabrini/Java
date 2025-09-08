@@ -8,5 +8,8 @@ public class VariavelControle {
         for(int i = 15; i >=5; i-=2){ //decremento de 2  em 2
             System.out.println(i);
         }
+        for(int d = 0; d<=100; d+=10){
+            System.out.println(d); // de 1 a 100 de 10 em 10
+        }
     }
 }
