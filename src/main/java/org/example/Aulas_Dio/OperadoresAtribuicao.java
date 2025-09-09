@@ -6,7 +6,7 @@ public class OperadoresAtribuicao {
     public static void main(String[] args) {
 
         var scanner = new Scanner(System.in); //escanear valores que recebemos pelo terminal
-        System.out.print("Quanto é 10 + 10: ");
+       /* System.out.print("Quanto é 10 + 10: ");
         var result = scanner.nextInt();
         //var isRight = result == 20; //usando booleano pra fazer comparação
         //System.out.printf("O resultado é 20, acertou mona ? (%s)", isRight);
@@ -14,11 +14,13 @@ public class OperadoresAtribuicao {
         //Agora vamos verificar se é diferente
 
         var isRong =  result != 20;
-        System.out.printf("O resultado é 20, você errou? (%s)", isRong);
+        System.out.printf("O resultado é 20, você errou? (%s)", isRong); */
 
         System.out.print("\nQuantos anos voce tem ?: ");
         var age = scanner.nextInt();
-        var isRight = age > 17;
+        System.out.print("Voce é emancipado ?: ");
+        var isEmanciped = scanner.nextBoolean();
+        var isRight = age >= 18 || isEmanciped;
         System.out.printf("Voce pode dirigir ?: (%s)", isRight);
 
     }
