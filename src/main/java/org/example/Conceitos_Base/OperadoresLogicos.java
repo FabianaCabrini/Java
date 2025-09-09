@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Conceitos_Base;
 
 public class OperadoresLogicos {
     public static void main(String[] args) {

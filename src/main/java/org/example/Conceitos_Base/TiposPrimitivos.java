@@ -1,4 +1,4 @@
-package org.example;
+package org.example.Conceitos_Base;
 import java.util.Scanner; //biblioteca pra entrada de dados
 
 public class TiposPrimitivos {
