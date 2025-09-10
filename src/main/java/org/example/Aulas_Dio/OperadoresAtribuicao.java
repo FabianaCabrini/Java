@@ -20,7 +20,7 @@ public class OperadoresAtribuicao {
         var age = scanner.nextInt();
         System.out.print("Voce é emancipado ?: ");
         var isEmanciped = scanner.nextBoolean();
-        var isRight = age >= 18 || isEmanciped && age >= 16;
+        var isRight = age >= 18 || isEmanciped && age >= 16 ;
         System.out.printf("Voce pode dirigir ?: (%s)", isRight);
 
     }
