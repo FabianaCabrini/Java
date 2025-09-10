@@ -1,4 +1,4 @@
-package org.example.Aulas_Dio;
+package org.example.Aulas_Dio.Atividades;
 
 import java.util.Scanner;
 
