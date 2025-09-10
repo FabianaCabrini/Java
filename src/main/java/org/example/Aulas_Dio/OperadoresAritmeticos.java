@@ -9,7 +9,7 @@ public class OperadoresAritmeticos {
         int num=1;
 
         System.out.println("--- CALCULADORA ---");
-        System.out.println("\nEsolha um número\n1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Resto\n0 - Para sair\n");
+        System.out.println("\nEsolha um número\n1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Resto\n5 - Multiplicação\n0 - Para sair\n");
         while (num != 0){
 
            System.out.println("\nEscolha a opção: ");
@@ -47,6 +47,17 @@ public class OperadoresAritmeticos {
                    var value8 = scanner.nextInt();
                    System.out.printf("%s %% %s = %s\n", value7, value8, value7 % value8);
                    break;
+               case 5:
+                   System.out.println("\n---MULTIPLICAÇÃO---");
+                   System.out.print("Digite um valor: ");
+                   var value9 = scanner.nextInt();
+                   System.out.print("Digite um segundo valor: ");
+                   var value10 = scanner.nextInt();
+                   System.out.printf("%s * %s = %s\n", value9, value10, value9 * value10);
+                   break;
+
+
+
                default:
                    System.out.println("Opção não encontrada.");
 
