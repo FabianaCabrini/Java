@@ -9,7 +9,7 @@ public class OperadoresAritmeticos {
         int num=1;
 
         System.out.println("--- CALCULADORA ---");
-        System.out.println("\nEsolha um número\n1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Resto\n5 - Multiplicação\n0 - Para sair\n");
+        System.out.println("\nEsolha um número\n1 - Soma\n2 - Subtração\n3 - Divisão\n4 - Resto\n5 - Multiplicação\n6 - Raiz quadrada\n0 - Para sair\n");
         while (num != 0){
 
            System.out.println("\nEscolha a opção: ");
@@ -55,8 +55,13 @@ public class OperadoresAritmeticos {
                    var value10 = scanner.nextInt();
                    System.out.printf("%s * %s = %s\n", value9, value10, value9 * value10);
                    break;
+               case 6:
+                   System.out.println("\n---RAIZ QUADRADA---");
+                   System.out.print("Digite um valor: ");
+                   var value11 = scanner.nextInt();
 
-
+                   System.out.printf("A raiz quadrada de %s = %s\n", value11, Math.sqrt(value11)); //biblioteca
+                   break;
 
                default:
                    System.out.println("Opção não encontrada.");
