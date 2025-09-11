@@ -22,8 +22,23 @@ public class Atividade07 {
         float altura = scanner.nextFloat();
         System.out.print("Digite sua peso: ");
         float peso = scanner.nextFloat();
-        var imc = (altura*altura)/peso;
-        System.out.printf("Seu IMC corresponde a: %.2f", imc);
 
+        var imc = peso/(altura*altura);
+
+        System.out.printf("IMC = %.2f\n", imc);
+
+        if (imc < 18.5 ){
+            System.out.println("Abaixo da peso");
+        }else if (imc > 18.5 && imc < 24.9){
+            System.out.println("Peso ideal");
+        }else if (imc > 24.9 && imc < 29.9){
+            System.out.println("Levemente acima do peso");
+        }else if (imc > 29.9 && imc < 33.9){
+            System.out.println("Obseidade nível I");
+        }else if (imc > 34.9 && imc < 40){
+            System.out.println("Obsidade nível II SEVERA");
+        }else {
+            System.out.println("Obesidade nível III MORBIDA");
+        }
     }
 }
