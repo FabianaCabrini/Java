@@ -27,6 +27,7 @@ public class atividade08 {
         System.out.print("--- IMPAR X PAR ---\n");
         System.out.print("Digite um número: ");
         num = scanner.nextInt();
+
         while (num !=0){
             System.out.print("Digite um número: ");
             num = scanner.nextInt();
