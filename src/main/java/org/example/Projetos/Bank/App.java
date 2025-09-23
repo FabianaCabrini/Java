@@ -19,6 +19,8 @@ public class App {
         }else{
             System.out.println("Saque efetuado !");
         }
+        System.out.println(account);
+
 
 
 

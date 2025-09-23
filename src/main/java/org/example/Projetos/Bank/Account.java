@@ -16,6 +16,7 @@ public class Account {
     private Log logger;
 
 
+
     public Account(String ag, String cc, String name) {
         this.ag = ag;
         this.cc = cc;
@@ -43,6 +44,13 @@ public class Account {
             balance -= value;
             logger.out("SAQUE - R$" + value + " Saldo atual: R$" + balance);
             return true;
+            }
+        }
+        @Override
+        public String toString() {
+
+            return "A conta " + this.name + " " + this.ag + " / " + this.cc + " possui R$ " + balance;
+
         }
     }
-}
+
